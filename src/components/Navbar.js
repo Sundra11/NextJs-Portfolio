@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Logo from '../../public/assets/skills/logo.png'
 
 const Navbar = () => {
 
@@ -32,7 +33,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full -20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                    <Image src="/../public/assets/skills/logo.png" width='55' height='50' />
+                    <Image src={Logo} width='55' height='50' />
                 </Link>
 
 

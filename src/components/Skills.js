@@ -1,5 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
+import Skill1 from '../../public/assets/skills/5.png'
+import Skill2 from '../../public/assets/skills/8.png'
+import Skill3 from '../../public/assets/skills/4.png'
+import Skill4 from '../../public/assets/skills/2.png'
+import Skill5 from '../../public/assets/skills/1.png'
+import Skill6 from '../../public/assets/skills/3.png'
+import Skill7 from '../../public/assets/skills/6.png'
+import Skill8 from '../../public/assets/skills/7.png'
+import Skill9 from '../../public/assets/skills/9.png'
+import Skill10 from '../../public/assets/skills/native.png'
+import Skill11 from '../../public/assets/skills/Android-Studio.png'
 
 function Skills() {
     return (
@@ -14,7 +25,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/5.png'
+                                    src={Skill1}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -30,7 +41,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/8.png'
+                                    src={Skill2}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -46,7 +57,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/4.png'
+                                    src={Skill3}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -62,7 +73,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/2.png'
+                                    src={Skill4}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -77,7 +88,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/1.png'
+                                    src={Skill5}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -92,7 +103,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/3.png'
+                                    src={Skill6}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -107,7 +118,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/6.png'
+                                    src={Skill7}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -122,7 +133,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/7.png'
+                                    src={Skill8}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -137,7 +148,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/9.png'
+                                    src={Skill9}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -152,7 +163,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/native.png'
+                                    src={Skill10}
                                     width={120}
                                     height={110}
                                     alt='/'
@@ -168,7 +179,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/Android-Studio.png'
+                                    src={Skill11}
                                     width={120}
                                     height={120}
                                     alt='/'

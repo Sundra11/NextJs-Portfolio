@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import EPF from '../../public/assets/skills/epf.jpeg'
+import TM from '../../public/assets/skills/tm.png'
+import powerfy from '../../public/assets/skills/powerfy.png'
 
 function Experience() {
     return (
@@ -13,7 +16,7 @@ function Experience() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/epf.jpeg'
+                                    src={EPF}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -30,7 +33,7 @@ function Experience() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/tm.png'
+                                    src={TM}
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -47,7 +50,7 @@ function Experience() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/powerfy.png'
+                                    src={powerfy}
                                     width={64}
                                     height={64}
                                     alt='/'
