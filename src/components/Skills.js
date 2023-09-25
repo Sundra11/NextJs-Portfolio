@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Skill1 from '/../public/assets/skills/5.png'
 
 function Skills() {
     return (
@@ -15,7 +14,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src={Skill1}
+                                    src='/../public/assets/skills/5.png'
                                     width={64}
                                     height={64}
                                     alt='/'
