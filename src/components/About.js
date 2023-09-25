@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Photo from '../../public/assets/skills/about.jpg'
+import Link from 'next/link'
 
 function About() {
     return (
@@ -23,7 +24,9 @@ function About() {
                         where I actively contributed as a team member. During this time, I took the initiative to embark on my journey to learn Nextjs and React Native independently.
                         I'm enthusiastic about continuously expanding my skill set and exploring new technologies to stay at the forefront of frontend development.
                     </p>
-                    <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my projects</p>
+                    <Link href='/#experience'>
+                        <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my projects</p>
+                    </Link>
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image className='rounded-xl' src={Photo} width={500} height={500} />
