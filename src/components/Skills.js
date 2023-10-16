@@ -11,6 +11,7 @@ import Skill8 from '../../public/assets/skills/7.png'
 import Skill9 from '../../public/assets/skills/9.png'
 import Skill10 from '../../public/assets/skills/native.png'
 import Skill11 from '../../public/assets/skills/Android-Studio.png'
+import Skill12 from '../../public/assets/skills/Sass.png'
 
 function Skills() {
     return (
@@ -189,6 +190,26 @@ function Skills() {
                                 <h3>Android Studio</h3>
                             </div>
                         </div>
+
+                        
+                    </div>
+
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image
+                                    src={Skill12}
+                                    width={120}
+                                    height={120}
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex flex-col items-center justify-center '>
+                                <h3>SASS</h3>
+                            </div>
+                        </div>
+
+                        
                     </div>
 
 
