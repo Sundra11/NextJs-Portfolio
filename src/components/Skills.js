@@ -205,7 +205,7 @@ function Skills() {
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center '>
-                                <h3>SASS</h3>
+                                <h3>SCSS</h3>
                             </div>
                         </div>
 
